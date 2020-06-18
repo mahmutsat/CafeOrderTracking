@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS Drinks (
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(50),
+  description  VARCHAR(50),
+  price NUMERIC,
+);
+
+CREATE TABLE IF NOT EXISTS Foods (
+id INTEGER PRIMARY KEY,
+name VARCHAR(50),
+description  VARCHAR(50),
+price NUMERIC,
+);
+
+CREATE TABLE IF NOT EXISTS MainCourses (
+ id INTEGER PRIMARY KEY,
+ name VARCHAR(50),
+ description  VARCHAR(50),
+ price NUMERIC,
+);
