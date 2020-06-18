@@ -37,10 +37,6 @@ public class Config {
         dataSource.setPassword("");
 
         return dataSource;
-
-//        return DataSourceBuilder.create().driverClassName("org.h2.Driver")
-//                .username("sa").password("")
-//                .url("jdbc:h2:mem:mycafe").build();
     }
 
     @Bean
@@ -81,11 +77,4 @@ public class Config {
     @Primary
     public FoodCategoryService foodCategoryService() { return new FoodCategoryServiceImpl(); }
 
-//    @Bean
-//    public InternalResourceViewResolver getInternalResourceViewResolver(){
-//        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-//        viewResolver.setSuffix(".jsp");
-//        viewResolver.setPrefix("views/");
-//        return viewResolver;
-//    }
 }
